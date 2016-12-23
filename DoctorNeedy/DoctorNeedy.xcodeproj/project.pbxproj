@@ -18,11 +18,14 @@
 		AF44801B1E0D069E0018C065 /* Doctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44801A1E0D069E0018C065 /* Doctors.swift */; };
 		AF44801D1E0D07AB0018C065 /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44801C1E0D07AB0018C065 /* DoctorsViewController.swift */; };
 		AF44801F1E0D07BB0018C065 /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44801E1E0D07BB0018C065 /* DoctorProfileViewController.swift */; };
-		AF4480231E0D085A0018C065 /* LocationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4480221E0D085A0018C065 /* LocationsTableViewCell.swift */; };
 		AF4480251E0D086A0018C065 /* DoctorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4480241E0D086A0018C065 /* DoctorsTableViewCell.swift */; };
+		B888D62BC14CB512F39D83DB /* Pods_DoctorNeedy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908DF1F54CA9047BE9214C5B /* Pods_DoctorNeedy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55CEA53F2783F67F70FEFF31 /* Pods-DoctorNeedy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorNeedy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorNeedy/Pods-DoctorNeedy.debug.xcconfig"; sourceTree = "<group>"; };
+		83DA9DF3A35C6D7345E7AC5F /* Pods-DoctorNeedy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorNeedy.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorNeedy/Pods-DoctorNeedy.release.xcconfig"; sourceTree = "<group>"; };
+		908DF1F54CA9047BE9214C5B /* Pods_DoctorNeedy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorNeedy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF447FFC1E0D04590018C065 /* DoctorNeedy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorNeedy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF447FFF1E0D04590018C065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF4480011E0D04590018C065 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +39,6 @@
 		AF44801A1E0D069E0018C065 /* Doctors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctors.swift; sourceTree = "<group>"; };
 		AF44801C1E0D07AB0018C065 /* DoctorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
 		AF44801E1E0D07BB0018C065 /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
-		AF4480221E0D085A0018C065 /* LocationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewCell.swift; sourceTree = "<group>"; };
 		AF4480241E0D086A0018C065 /* DoctorsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,18 +49,29 @@
 			files = (
 				AF4480151E0D06340018C065 /* CoreLocation.framework in Frameworks */,
 				AF4480131E0D062C0018C065 /* MapKit.framework in Frameworks */,
+				B888D62BC14CB512F39D83DB /* Pods_DoctorNeedy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		656CB3CE77B682D8047240F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55CEA53F2783F67F70FEFF31 /* Pods-DoctorNeedy.debug.xcconfig */,
+				83DA9DF3A35C6D7345E7AC5F /* Pods-DoctorNeedy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF447FF31E0D04590018C065 = {
 			isa = PBXGroup;
 			children = (
 				AF447FFE1E0D04590018C065 /* DoctorNeedy */,
 				AF447FFD1E0D04590018C065 /* Products */,
 				AF4480111E0D062C0018C065 /* Frameworks */,
+				656CB3CE77B682D8047240F2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +103,7 @@
 			children = (
 				AF4480141E0D06340018C065 /* CoreLocation.framework */,
 				AF4480121E0D062C0018C065 /* MapKit.framework */,
+				908DF1F54CA9047BE9214C5B /* Pods_DoctorNeedy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,7 +130,6 @@
 		AF4480211E0D08390018C065 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				AF4480221E0D085A0018C065 /* LocationsTableViewCell.swift */,
 				AF4480241E0D086A0018C065 /* DoctorsTableViewCell.swift */,
 			);
 			name = TableViewCell;
@@ -129,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF44800E1E0D04590018C065 /* Build configuration list for PBXNativeTarget "DoctorNeedy" */;
 			buildPhases = (
+				88C5D61D93F76BC82118A739 /* [CP] Check Pods Manifest.lock */,
 				AF447FF81E0D04590018C065 /* Sources */,
 				AF447FF91E0D04590018C065 /* Frameworks */,
 				AF447FFA1E0D04590018C065 /* Resources */,
+				19DF45D352F57F2C99446249 /* [CP] Embed Pods Frameworks */,
+				4BA370C08D092E17DEA666EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,6 +205,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19DF45D352F57F2C99446249 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctorNeedy/Pods-DoctorNeedy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BA370C08D092E17DEA666EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctorNeedy/Pods-DoctorNeedy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C5D61D93F76BC82118A739 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF447FF81E0D04590018C065 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -197,7 +261,6 @@
 				AF4480191E0D06930018C065 /* Locations.swift in Sources */,
 				AF4480021E0D04590018C065 /* LocationsViewController.swift in Sources */,
 				AF44801B1E0D069E0018C065 /* Doctors.swift in Sources */,
-				AF4480231E0D085A0018C065 /* LocationsTableViewCell.swift in Sources */,
 				AF4480001E0D04590018C065 /* AppDelegate.swift in Sources */,
 				AF44801D1E0D07AB0018C065 /* DoctorsViewController.swift in Sources */,
 				AF4480251E0D086A0018C065 /* DoctorsTableViewCell.swift in Sources */,
@@ -322,6 +385,7 @@
 		};
 		AF44800F1E0D04590018C065 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CEA53F2783F67F70FEFF31 /* Pods-DoctorNeedy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DoctorNeedy/Info.plist;
@@ -334,6 +398,7 @@
 		};
 		AF4480101E0D04590018C065 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DA9DF3A35C6D7345E7AC5F /* Pods-DoctorNeedy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DoctorNeedy/Info.plist;

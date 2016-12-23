@@ -1,0 +1,6 @@
+framework module Pods_DoctorNeedy {
+  umbrella header "Pods-DoctorNeedy-umbrella.h"
+
+  export *
+  module * { export * }
+}
