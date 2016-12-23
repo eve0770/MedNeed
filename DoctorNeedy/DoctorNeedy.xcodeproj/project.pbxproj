@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		AF4480001E0D04590018C065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FFF1E0D04590018C065 /* AppDelegate.swift */; };
-		AF4480021E0D04590018C065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4480011E0D04590018C065 /* ViewController.swift */; };
+		AF4480021E0D04590018C065 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4480011E0D04590018C065 /* LocationsViewController.swift */; };
 		AF4480051E0D04590018C065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4480031E0D04590018C065 /* Main.storyboard */; };
 		AF4480071E0D04590018C065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4480061E0D04590018C065 /* Assets.xcassets */; };
 		AF44800A1E0D04590018C065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4480081E0D04590018C065 /* LaunchScreen.storyboard */; };
+		AF4480131E0D062C0018C065 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4480121E0D062C0018C065 /* MapKit.framework */; };
+		AF4480151E0D06340018C065 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4480141E0D06340018C065 /* CoreLocation.framework */; };
+		AF4480191E0D06930018C065 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4480181E0D06930018C065 /* Locations.swift */; };
+		AF44801B1E0D069E0018C065 /* Doctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44801A1E0D069E0018C065 /* Doctors.swift */; };
+		AF44801D1E0D07AB0018C065 /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44801C1E0D07AB0018C065 /* DoctorsViewController.swift */; };
+		AF44801F1E0D07BB0018C065 /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44801E1E0D07BB0018C065 /* DoctorProfileViewController.swift */; };
+		AF4480231E0D085A0018C065 /* LocationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4480221E0D085A0018C065 /* LocationsTableViewCell.swift */; };
+		AF4480251E0D086A0018C065 /* DoctorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4480241E0D086A0018C065 /* DoctorsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF447FFC1E0D04590018C065 /* DoctorNeedy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorNeedy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF447FFF1E0D04590018C065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF4480011E0D04590018C065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF4480011E0D04590018C065 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		AF4480041E0D04590018C065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF4480061E0D04590018C065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4480091E0D04590018C065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF44800B1E0D04590018C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4480121E0D062C0018C065 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AF4480141E0D06340018C065 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AF4480181E0D06930018C065 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		AF44801A1E0D069E0018C065 /* Doctors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctors.swift; sourceTree = "<group>"; };
+		AF44801C1E0D07AB0018C065 /* DoctorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
+		AF44801E1E0D07BB0018C065 /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
+		AF4480221E0D085A0018C065 /* LocationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewCell.swift; sourceTree = "<group>"; };
+		AF4480241E0D086A0018C065 /* DoctorsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4480151E0D06340018C065 /* CoreLocation.framework in Frameworks */,
+				AF4480131E0D062C0018C065 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 			children = (
 				AF447FFE1E0D04590018C065 /* DoctorNeedy */,
 				AF447FFD1E0D04590018C065 /* Products */,
+				AF4480111E0D062C0018C065 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,53 @@
 		AF447FFE1E0D04590018C065 /* DoctorNeedy */ = {
 			isa = PBXGroup;
 			children = (
+				AF4480211E0D08390018C065 /* TableViewCell */,
+				AF4480201E0D07BE0018C065 /* ViewControllers */,
+				AF4480161E0D066E0018C065 /* Modal */,
 				AF447FFF1E0D04590018C065 /* AppDelegate.swift */,
-				AF4480011E0D04590018C065 /* ViewController.swift */,
 				AF4480031E0D04590018C065 /* Main.storyboard */,
 				AF4480061E0D04590018C065 /* Assets.xcassets */,
 				AF4480081E0D04590018C065 /* LaunchScreen.storyboard */,
 				AF44800B1E0D04590018C065 /* Info.plist */,
 			);
 			path = DoctorNeedy;
+			sourceTree = "<group>";
+		};
+		AF4480111E0D062C0018C065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4480141E0D06340018C065 /* CoreLocation.framework */,
+				AF4480121E0D062C0018C065 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4480161E0D066E0018C065 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				AF4480181E0D06930018C065 /* Locations.swift */,
+				AF44801A1E0D069E0018C065 /* Doctors.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		AF4480201E0D07BE0018C065 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF44801C1E0D07AB0018C065 /* DoctorsViewController.swift */,
+				AF44801E1E0D07BB0018C065 /* DoctorProfileViewController.swift */,
+				AF4480011E0D04590018C065 /* LocationsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AF4480211E0D08390018C065 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AF4480221E0D085A0018C065 /* LocationsTableViewCell.swift */,
+				AF4480241E0D086A0018C065 /* DoctorsTableViewCell.swift */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4480021E0D04590018C065 /* ViewController.swift in Sources */,
+				AF4480191E0D06930018C065 /* Locations.swift in Sources */,
+				AF4480021E0D04590018C065 /* LocationsViewController.swift in Sources */,
+				AF44801B1E0D069E0018C065 /* Doctors.swift in Sources */,
+				AF4480231E0D085A0018C065 /* LocationsTableViewCell.swift in Sources */,
 				AF4480001E0D04590018C065 /* AppDelegate.swift in Sources */,
+				AF44801D1E0D07AB0018C065 /* DoctorsViewController.swift in Sources */,
+				AF4480251E0D086A0018C065 /* DoctorsTableViewCell.swift in Sources */,
+				AF44801F1E0D07BB0018C065 /* DoctorProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +363,7 @@
 				AF4480101E0D04590018C065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
